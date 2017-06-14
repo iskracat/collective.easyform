@@ -3,7 +3,7 @@
 from Products.PageTemplates.Expressions import getEngine
 from plone.app.textfield import RichText
 from plone.directives import form
-from plone.schemaeditor import SchemaEditorMessageFactory as __
+from plone.schemaeditor import _ as __
 from plone.schemaeditor.interfaces import ID_RE
 from plone.schemaeditor.interfaces import IFieldContext
 from plone.schemaeditor.interfaces import IFieldEditorExtender

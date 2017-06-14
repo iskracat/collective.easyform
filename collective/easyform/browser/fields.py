@@ -6,7 +6,7 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from ZPublisher.BaseRequest import DefaultPublishTraverse
 from json import dumps
 from lxml import etree
-from plone.schemaeditor import SchemaEditorMessageFactory as __
+from plone.schemaeditor import _ as __
 from plone.schemaeditor.browser.field.edit import EditView
 from plone.schemaeditor.browser.field.edit import FieldEditForm
 from plone.schemaeditor.browser.field.traversal import FieldContext
